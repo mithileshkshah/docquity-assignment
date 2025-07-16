@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <div class="reg-webinars">Registered Webinars</div>
+  <div class="webinar-list mt-3 p-3 d-flex flex-wrap gap-2">
+    <div *ngFor="let webinar of webinars">
+      <app-webinar-card [webinarData]="webinar"></app-webinar-card>
+    </div>
+  </div>
+</div>

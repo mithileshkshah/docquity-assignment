@@ -1,0 +1,12 @@
+.nav-tabs {
+  .nav-link {
+    border: none;
+    color: #555;
+
+    &.active {
+      border-bottom: 2px solid #000;
+      color: #000;
+      font-weight: 500;
+    }
+  }
+}

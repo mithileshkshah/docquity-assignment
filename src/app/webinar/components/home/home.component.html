@@ -1,0 +1,15 @@
+<div class="container mt-3 mb-3">
+  <app-tabs (activeTab)="selectTab($event)"></app-tabs>
+
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-4 col-lg-3">
+      <app-sidebar></app-sidebar>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-md-8 col-lg-9">
+      <app-webinar-list [activeTab]="activeTab"></app-webinar-list>
+    </div>
+  </div>
+</div>

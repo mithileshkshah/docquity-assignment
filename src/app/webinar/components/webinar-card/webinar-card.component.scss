@@ -1,0 +1,56 @@
+.webinar-card {
+  font-family: "Inter", sans-serif;
+  border-radius: 16px;
+  max-width: 460px;
+
+  .org-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .credit-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: #fdf1e8;
+    padding: 4px 8px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #000;
+  }
+
+  .go-live {
+    background: #b3e5fc;
+  }
+
+  .key-highlight {
+    background-color: #fff3f2;
+    border-radius: 12px;
+    border: 1px solid #f8d9d6;
+  }
+
+  .btn-dark {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+  }
+
+  .btn-link {
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  h6 {
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .small {
+    font-size: 13px;
+  }
+  img {
+    width: 100%;
+  }
+}

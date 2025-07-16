@@ -1,0 +1,25 @@
+.nav-tabs {
+  border-bottom: 1px solid #e0e0e0;
+
+  .nav-link {
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #000;
+    }
+
+    &.active {
+      color: #000;
+      font-weight: 500;
+      border-bottom: 3px solid #000;
+      background-color: transparent;
+    }
+  }
+}
